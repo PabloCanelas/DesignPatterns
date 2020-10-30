@@ -1,2 +1,1 @@
-# DesignPatterns
-Laboratorios de arquitectura de software, implementacion de patrones de diseño
+#Rama Creacional: Laboratorio 3/ implementacion de Abstract Factory
