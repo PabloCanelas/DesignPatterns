@@ -9,9 +9,9 @@
 using namespace std;
 
 int main() {
-	CruiserFactory cruisers;
-	LongboardFactory longs;
-	SkateFactory clasics;
+	SkateboardFactory *cruisers=new CruiserFactory();
+	SkateboardFactory *longs=new LongboardFactory();
+	SkateboardFactory *clasics=new SkateFactory();
 
 	//Creacion de productos individuales para Longboard
 	Deck *longDeck = longs.CreateDeck();
