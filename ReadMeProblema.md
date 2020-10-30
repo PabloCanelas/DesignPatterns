@@ -6,3 +6,5 @@ Una tienda skateshop tiene 3 estilos de patinetas distintas: Longboard, Skate, C
 
 # Solucion:
 Se implementa el patron de diseño creacional Abstract Factory para ser la interfaz de creacion de todos los productos de la tienda.
+
+Todas las clases estan implementadas en DesignPatterns/AbstractFactory/AbstractFactory/src/headers
