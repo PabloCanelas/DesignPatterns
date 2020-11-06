@@ -10,9 +10,9 @@ public:
 	}
 	int takeDamage() {
 		int damage = this->E->takeDamage() - 5;
+		E->life = E->life-damage;
 		return damage;
 	}
 
-private:
 };
 
